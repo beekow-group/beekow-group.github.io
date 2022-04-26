@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BEEKOW Group</title>    
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">DOMŮ</a> </li>
+                <li><a href="">O NÁS</a> </li>
+                <li><a href="">PRODUKTY</a> </li>
+                <li><a href="">MÉDIA</a> </li>
+                <li><a href="">KONTAKT</a> </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>BEEKOW Group</h1>
+    <p>Kokoti, co měli super nápad vyrábět med.
+    </p>
+    <a href="" class="hero-btn">Více zde</a>
+</div>        
+
+</section>
+    
+<!------course------>
+
+<section class="produkty">
+    <h1>Nabízené produkty</h1>
+    <p>Seznam všech nabízených produktů.</p>
+    
+    <div class="row">
+        <div class="produkty-col">
+            <h3>Med</h3>
+            <p>Něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco</p>        
+        </div>
+        <div class="produkty-col">
+            <h3>Medovina</h3>
+            <p>Něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco</p>
+        </div>
+        <div class="produkty-col">
+            <h3>Vosk</h3>
+            <p>Něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco něco</p>        
+        </div>
+      
+    </div>
+    
+</section>
+ 
+    
+<!------Vcely------>
+
+<section class="vcely">
+    <h1>NAŠE VČELY</h1>
+    <p>Pokochejte se darem přírody.</p>
+    
+<!-----Obrázky 502/711----->   
+    
+    <div class="row">
+        <div class="vcely-col">
+            <img src="images/ul1.jpeg">
+            <div class="layer">
+                <h3>ÚL V LESE</h3>
+            </div>
+        </div>
+        
+        <div class="vcely-col">
+            <img src="images/ul2.jpg">
+            <div class="layer">
+                <h3>BUDKA</h3>
+            </div>
+        </div>
+        
+        <div class="vcely-col">
+            <img src="images/ul3.jpg">
+            <div class="layer">
+                <h3>MED A BUDKA</h3>
+            </div>
+        </div>
+        
+    </div>
+        
+    
+</section> 
+    
+<!-----Náš tým----->
+    
+<section class="tym">
+    <h1>Náš tým</h1>
+    <p>Sestava největších elit společnosti.</p>
+    
+    <div class="row">
+        <div class="tym-col">
+            <img src="images/Vita.jpg">
+            <h3>Víťa</h3>
+            <p>24</p>
+        </div>
+        <div class="tym-col">
+            <img src="images/Zdenek.jpg">
+            <h3>Zdeněk</h3>
+            <p>23</p>
+        </div>
+        <div class="tym-col">
+            <img src="images/Jiri.jpg">
+            <h3>Jirka</h3>
+            <p>23</p>
+        </div> 
+        <div class="tym-col">
+            <img src="images/Stepan.jpg">
+            <h3>Štěpán</h3>
+            <p>23</p>
+        </div> 
+        <div class="tym-col">
+            <img src="images/David.jpg">
+            <h3>David</h3>
+            <p>24</p>
+        </div> 
+    </div>
+    
+    
+</section>
+    
+    
+<!------JavaScript for Toggle Menu------>    
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+    
+</body>
+</html>
